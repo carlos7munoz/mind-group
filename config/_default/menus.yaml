@@ -8,24 +8,21 @@ main:
     weight: 10
   - name: ✅ Solutions
     weight: 20
-  - parent: Solutions
+  - parent: ✅ Solutions
     name: 🔎 Research
     url: research/
     weight: 30
-  - parent: Solutions
+  - parent: ✅ Solutions
     name: 📒️ Educational
     url: educational/
     wight: 40
-  - parent: Solutions
+  - parent: ✅ Solutions
     name: 📝 Clinical
     url: clinical/
     weight: 50
   - name: 👥 Meet us
     url: /#top
     weight: 60
-  - name: 📨 Contact
+  - name: ✉️ Contact
     weight: 70
     hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
