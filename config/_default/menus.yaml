@@ -3,16 +3,24 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: 🏠 MIND Group
     url: /#top
     weight: 10
-  - name: Features
-    url: /#features
-    weight: 20
   - name: Solutions
-    url: /#solutions
+    weight: 20
+  - parent: Solutions
+    name: 🔎🧠 Research
+    url: research/
+  - parent: Solutions
+    name: 🎓 Educational
+    url: educational/
+  - parent: Solutions
+    name: 📝 Clinical
+    url: clinical/    
+  - name: Meet us
+    url: /#top
     weight: 30
-  - name: Resources
+  - name: Solutions
     weight: 40
     hasChildren: true
   - parent: Resources
